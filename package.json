@@ -1,0 +1,31 @@
+{
+  "name": "web_proyecto",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "WEB-PROYECTO": "routes.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.5.12",
+    "nodemon": "^1.19.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orvahe/WEB-PROYECTO.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orvahe/WEB-PROYECTO/issues"
+  },
+  "homepage": "https://github.com/orvahe/WEB-PROYECTO#readme",
+  "description": "Ejemplo de backend en node js para el curso de programación web y bases de datos del programa de la Licenciatura en informatica y Medios"
+}
